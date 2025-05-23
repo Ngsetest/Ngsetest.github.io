@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobile Development Services</title>
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="cyber-lines"></div>
+    <div class="language-selector">
+        <button class="lang-btn active" data-lang="en">EN</button>
+        <button class="lang-btn" data-lang="ru">RU</button>
+    </div>
+
+    <header class="header">
+        <div class="cyber-header-bg"></div>
+        <nav class="nav">
+            <div class="logo">
+                <div class="logo-glitch" data-text="TechMobile">TechMobile</div>
+                <div class="logo-scanner"></div>
+            </div>
+            <div class="menu-toggle" id="menuToggle">
+                <i class="fas fa-bars"></i>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home" data-en="Home" data-ru="Главная">Home</a></li>
+                <li><a href="#services" data-en="Services" data-ru="Услуги">Services</a></li>
+                <li><a href="#portfolio" data-en="Portfolio" data-ru="Портфолио">Portfolio</a></li>
+                <li><a href="#contact" data-en="Contact" data-ru="Контакты">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="cyber-grid"></div>
+        <div class="hero-content">
+            <div class="glitch-container">
+                <h1 class="glitch" data-en="Transform Your Ideas Into Mobile Reality" data-ru="Воплощаем Ваши Идеи в Мобильную Реальность">Transform Your Ideas Into Mobile Reality</h1>
+            </div>
+            <p data-en="Expert mobile app development services for iOS and Android" data-ru="Профессиональная разработка мобильных приложений для iOS и Android">Expert mobile app development services for iOS and Android</p>
+            <a href="#contact" class="cta-button" data-en="Get Started" data-ru="Начать Проект">
+                <span class="btn-glitch"></span>
+                <span class="btn-text">Get Started</span>
+            </a>
+        </div>
+        <div class="floating-tech-elements"></div>
+    </section>
+
+    <section id="services" class="services">
+        <h2 data-en="Our Services" data-ru="Наши Услуги">Our Services</h2>
+        <div class="services-grid">
+            <div class="service-card">
+                <div class="tech-icon">
+                    <i class="fas fa-mobile-alt"></i>
+                </div>
+                <h3 data-en="iOS Development" data-ru="Разработка iOS">iOS Development</h3>
+                <p data-en="Native iOS apps built with Swift and SwiftUI" data-ru="Нативные iOS приложения на Swift и SwiftUI">Native iOS apps built with Swift and SwiftUI</p>
+            </div>
+            <div class="service-card">
+                <div class="tech-icon">
+                    <i class="fab fa-android"></i>
+                </div>
+                <h3 data-en="Android Development" data-ru="Разработка Android">Android Development</h3>
+                <p data-en="Native Android apps using Kotlin and Jetpack" data-ru="Нативные Android приложения на Kotlin и Jetpack">Native Android apps using Kotlin and Jetpack</p>
+            </div>
+            <div class="service-card">
+                <div class="tech-icon">
+                    <i class="fas fa-code"></i>
+                </div>
+                <h3 data-en="Cross-Platform" data-ru="Кросс-Платформенная Разработка">Cross-Platform</h3>
+                <p data-en="Efficient solutions for multiple platforms" data-ru="Эффективные решения для всех платформ">Efficient solutions for multiple platforms</p>
+            </div>
+            <div class="service-card">
+                <div class="tech-icon">
+                    <i class="fas fa-cloud"></i>
+                </div>
+                <h3 data-en="Backend Integration" data-ru="Интеграция Backend">Backend Integration</h3>
+                <p data-en="Seamless API and cloud integration" data-ru="Интеграция API и облачных сервисов">Seamless API and cloud integration</p>
+            </div>
+            <div class="service-card">
+                <div class="tech-icon">
+                    <i class="fas fa-paint-brush"></i>
+                </div>
+                <h3 data-en="UI/UX Design" data-ru="UI/UX Дизайн">UI/UX Design</h3>
+                <p data-en="Beautiful, intuitive interfaces with modern design trends" data-ru="Красивые, интуитивные интерфейсы с современными трендами">Beautiful, intuitive interfaces with modern design trends</p>
+            </div>
+            <div class="service-card">
+                <div class="tech-icon">
+                    <i class="fas fa-life-ring"></i>
+                </div>
+                <h3 data-en="App Support & Maintenance" data-ru="Поддержка Приложений">App Support & Maintenance</h3>
+                <p data-en="24/7 technical support, updates, and performance optimization" data-ru="Техническая поддержка 24/7, обновления и оптимизация">24/7 technical support, updates, and performance optimization</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="portfolio">
+        <h2 data-en="Our Work" data-ru="Наши Работы">Our Work</h2>
+        <div class="portfolio-grid">
+            <div class="portfolio-item">
+                <div class="cyber-frame"></div>
+                <img src="./images/Lucid_iOS_Android_eng.png" alt="Financial App">
+                <div class="portfolio-overlay">
+                    <h3 data-en="Financial App" data-ru="Финансовое приложение" id="1">Financial App</h3>
+                    <p data-en="iOS & Android" data-ru="iOS и Android">iOS & Android</p>
+                    <div class="tech-stack">Swift • Kotlin • FireBase • Onfido</div>
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <div class="cyber-frame"></div>
+                <img src="./images/VPN_IOS_Android_eng.png" alt="VPN App">
+                <div class="portfolio-overlay">
+                    <h3 data-en="TipTop VPN" data-ru="TipTop VPN" id="2">TipTop VPN</h3>
+                    <p data-en="iOS & Android" data-ru="iOS и Android">iOS & Android</p>
+                    <div class="tech-stack">Swift • Kotlin • VPN • FireBase</div>
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <div class="cyber-frame"></div>
+                <img src="./images/Mojipic_IOS_Android_rus.jpg" alt="Mojipic App">
+                <div class="portfolio-overlay">
+                    <h3 data-en="Mojipic App" data-ru="Приложение Mojipic" id="3">Mojipic App</h3>
+                    <p data-en="iOS & Android" data-ru="iOS и Android">iOS & Android</p>
+                    <div class="tech-stack">Swift • Kotlin • BLE</div>
+                </div>
+            </div>
+            <div class="portfolio-item hidden">
+                <div class="cyber-frame"></div>
+                <img src="./images/Loker_Android_eng.jpg" alt="Locker App">
+                <div class="portfolio-overlay">
+                    <h3 data-en="Locker App" data-ru="Программа блокировщик" id="4">Locker App</h3>
+                    <p data-en="Android Native" data-ru="Нативное Android">Android Native</p>
+                    <div class="tech-stack">Kotlin • Clean Architecture • Room</div>
+                </div>
+            </div>
+            <div class="portfolio-item hidden">
+                <div class="cyber-frame"></div>
+                <img src="./images/Walqulike_iOS_Android_eng.jpg" alt="Walqulike App">
+                <div class="portfolio-overlay">
+                    <h3 data-en="Walqulike App" data-ru="Приложение Walqulike" id="5">Walqulike App</h3>
+                    <p data-en="iOS & Android" data-ru="iOS и Android">iOS & Android</p>
+                    <div class="tech-stack">Swift • Kotlin • Firebase • Dagger</div>
+                </div>
+            </div>
+            <div class="portfolio-item hidden">
+                <div class="cyber-frame"></div>
+                <img src="./images/Caroline_iOS_Android_rus.png" alt="Caroline App">
+                <div class="portfolio-overlay">
+                    <h3 data-en="Caroline App" data-ru="Приложение Caroline" id="6">Caroline App</h3>
+                    <p data-en="iOS & Android" data-ru="iOS и Android">iOS & Android</p>
+                    <div class="tech-stack">Swift • Kotlin • Firebase • Realm</div>
+                </div>
+            </div>
+            <div class="portfolio-item hidden">
+                <div class="cyber-frame"></div>
+                <img src="./images/LifeMart_iOS_rus.jpg" alt="Food order App">
+                <div class="portfolio-overlay">
+                    <h3 data-en="Food order App" data-ru="Приложение для заказа продуктов питания" id="7">Food order App</h3>
+                    <p data-en="iOS Native" data-ru="Нативное iOS">iOS Native</p>
+                    <div class="tech-stack">SwiftUI • Firebase • Combine</div>
+                </div>
+            </div>
+            <div class="portfolio-item hidden">
+                <div class="cyber-frame"></div>
+                <img src="./images/Xpresent_IOS_Android_rus.jpg" alt="Xpresent App">
+                <div class="portfolio-overlay">
+                    <h3 data-en="Xpresent App" data-ru="Приложение Xpresent" id="8">Xpresent App</h3>
+                    <p data-en="iOS & Android" data-ru="iOS и Android">iOS & Android</p>
+                    <div class="tech-stack">Swift • Kotlin • Firebase • SocialNetworks</div>
+                </div>
+            </div>
+            <div class="portfolio-item hidden">
+                <div class="cyber-frame"></div>
+                <img src="./images/Taxi_iOS_Android_rus.jpg" alt="Taxi App">
+                <div class="portfolio-overlay">
+                    <h3 data-en="Taxi App" data-ru="Приложение Taxi" id="9">Taxi App</h3>
+                    <p data-en="iOS & Android" data-ru="iOS и Android">iOS & Android</p>
+                    <div class="tech-stack">Swift • Kotlin • Firebase • Navigation</div>
+                </div>
+            </div>
+        </div>
+        <div class="show-more-container">
+            <button class="show-more-btn" data-en="Show More Projects" data-ru="Показать Больше Проектов">
+                <span class="btn-glitch"></span>
+                <span class="btn-text">Show More Projects</span>
+            </button>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2 data-en="Get In Touch" data-ru="Свяжитесь с Нами">Get In Touch</h2>
+        <div class="contact-container">
+            <div class="contact-grid">
+                <div class="contact-card">
+                    <div class="cyber-frame"></div>
+                    <div class="contact-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <h3 data-en="Email Us" data-ru="Написать">Email Us</h3>
+                    <a href="mailto:ngsedev@gmail.com" class="contact-link">ngsedev@gmail.com</a>
+                </div>
+                <div class="contact-card">
+                    <div class="cyber-frame"></div>
+                    <div class="contact-icon">
+                        <i class="fas fa-phone"></i>
+                    </div>
+                    <h3 data-en="Call Us" data-ru="Позвонить">Call Us</h3>
+                    <a href="tel:+380954047817" class="contact-link">+380 (95) 404-7817</a>
+                </div>
+            </div>
+            <div class="social-grid">
+                <a href="https://t.me/max475imus" class="social-card">
+                    <div class="cyber-frame"></div>
+                    <i class="fab fa-telegram"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/maxim-chorniy-47763bb3/" class="social-card">
+                    <div class="cyber-frame"></div>
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="https://www.facebook.com/ngsetest/" class="social-card">
+                    <div class="cyber-frame"></div>
+                    <i class="fab fa-facebook"></i>
+                </a>
+                <a href="https://upwork.com/freelancers/maximc" class="social-card">
+                    <div class="cyber-frame"></div>
+                    <i class="fa-solid fa-globe"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="cyber-footer-bg"></div>
+        <div class="footer-content">
+            <div class="footer-section">
+                <div class="logo-glitch" data-text="TechMobile">TechMobile</div>
+                <p data-en="Transforming ideas into exceptional mobile experiences" data-ru="Превращаем идеи в исключительные мобильные приложения">Transforming ideas into exceptional mobile experiences</p>
+            </div>
+            <div class="footer-section">
+                <h3 data-en="Quick Links" data-ru="Быстрые Ссылки">Quick Links</h3>
+                <ul class="footer-links">
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 TechMobile. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <div class="portfolio-modal" id="portfolioModal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 class="modal-title"></h3>
+                <button class="modal-close">×</button>
+            </div>
+            <div class="modal-body">
+                <div class="modal-image-container">
+                    <img src="" alt="" class="modal-image">
+                </div>
+                <div class="modal-details">
+                    <div class="modal-description"></div>
+                    <div class="modal-tech-stack"></div>
+                    <!--
+                    <div class="modal-links">
+                        <a href="#" class="cyber-button live-demo-link" target="_blank" data-en="Live Demo" data-ru="Демо">
+                            <span class="btn-glitch"></span>
+                            <span class="btn-text">Live Demo</span>
+                        </a>
+                        <a href="#" class="cyber-button github-link" target="_blank">
+                            <span class="btn-glitch"></span>
+                            <span class="btn-text">GitHub</span>
+                        </a>
+                    </div>
+                    -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html> 
